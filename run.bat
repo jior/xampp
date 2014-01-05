@@ -1,0 +1,2 @@
+cmd
+echo catalina_service install

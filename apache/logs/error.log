@@ -1,0 +1,12 @@
+[Sun Jan 05 10:57:56.950482 2014] [ssl:warn] [pid 6160:tid 332] AH01909: RSA certificate configured for www.example.com:443 does NOT include an ID which matches the server name
+[Sun Jan 05 10:57:57.032484 2014] [ssl:warn] [pid 6160:tid 332] AH01909: RSA certificate configured for www.example.com:443 does NOT include an ID which matches the server name
+[Sun Jan 05 10:57:57.032484 2014] [mpm_winnt:notice] [pid 6160:tid 332] AH00455: Apache/2.4.7 (Win32) OpenSSL/1.0.1e configured -- resuming normal operations
+[Sun Jan 05 10:57:57.032484 2014] [mpm_winnt:notice] [pid 6160:tid 332] AH00456: Apache Lounge VC11 Server built: Nov 21 2013 20:13:01
+[Sun Jan 05 10:57:57.032484 2014] [core:notice] [pid 6160:tid 332] AH00094: Command line: 'E:\\xampp\\apache\\bin\\httpd.exe -d E:/xampp/apache'
+[Sun Jan 05 10:57:57.042484 2014] [mpm_winnt:notice] [pid 6160:tid 332] AH00418: Parent: Created child process 6772
+[Sun Jan 05 10:57:58.074499 2014] [ssl:warn] [pid 6772:tid 220] AH01909: RSA certificate configured for www.example.com:443 does NOT include an ID which matches the server name
+[Sun Jan 05 10:57:58.104499 2014] [ssl:warn] [pid 6772:tid 220] AH01909: RSA certificate configured for www.example.com:443 does NOT include an ID which matches the server name
+[Sun Jan 05 10:57:58.104499 2014] [mpm_winnt:notice] [pid 6772:tid 220] AH00354: Child: Starting 150 worker threads.
+[Sun Jan 05 11:22:58.003076 2014] [mpm_winnt:notice] [pid 6160:tid 332] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Sun Jan 05 11:23:00.003078 2014] [mpm_winnt:notice] [pid 6772:tid 220] AH00364: Child: All worker threads have exited.
+[Sun Jan 05 11:23:00.013078 2014] [mpm_winnt:notice] [pid 6160:tid 332] AH00430: Parent: Child process 6772 exited successfully.

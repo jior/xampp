@@ -17,3 +17,8 @@ ProxyPass /wechat ajp://127.0.0.1:8009/wechat smax=0 ttl=60 retry=5
 3）xampp\tomcat\conf\server.xml
 修改147行，把其中的内容修改成你的应用的路径
 <Context path="/glaf" docBase="e:/wechat/WebContent" reloadable="false"/>
+4）xampp\catalina_service.bat修改tomcat的jvm参数
+默认值：--JvmMs 512 --JvmMx 1024 --JvmSs 2048
+根据服务器配置自行调整
+如果是JDK1.7修改278行
+如果是JDK1.6修改281行
